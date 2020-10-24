@@ -114,6 +114,10 @@ int main(void)
 
 		update_track(&track1, eye_h, eye_w, eye1_cy, eye1_cx, event.y, event.x);
 		update_track(&track2, eye_h, eye_w, eye2_cy, eye2_cx, event.y, event.x);
+
+		move(h-1, w/2 - 7);
+		//      1234567890123
+		addstr("-=+ neyes +=-");
 	}
  
 	// Disable mouse movement events, as l = low
